@@ -1,0 +1,7 @@
+marwil:
+    run: MARWIL
+    local_dir: results
+    config:
+        framework: torch
+        env: PongNoFrameskip-v4
+        input: /tmp/out
