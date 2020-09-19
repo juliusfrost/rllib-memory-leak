@@ -1,7 +1,8 @@
 # rllib-memory-leak
 
 ## Reproduction
-OS: Ubuntu 18.3
+OS: Ubuntu 18.04  
+Install [ray](https://docs.ray.io/en/master/installation.html)
 1. `python generate_data.py`
 2. `rllib train -f marwil.yaml` or `rllib train -f marwil-gpu.yaml`
 
