@@ -4,7 +4,8 @@
 OS: Ubuntu 18.04  
 Install [ray](https://docs.ray.io/en/master/installation.html)
 1. `python generate_data.py`
-2. `rllib train -f marwil.yaml` or `rllib train -f marwil-gpu.yaml`
+2. `rllib train -f marwil.yaml`
+You can also try the other config files. At the moment they all reproduce the error.
 
 ## Error log
 ```
